@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-_h4^%z91@ge#kwx(y!x_z&byte5-tve!_2&n8*f8*50g8)rpv_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['8000-sibekov-django-procrevis-th2l2qvb56.us2.codeanyapp.com']
+ALLOWED_HOSTS = ['8000-sibekov-django-procrevis-th2l2qvb56.us2.codeanyapp.com',
+                 'djangodeprev-95ec3adbd06c.herokuapp.com', 'localhost',]
 
 
 # Application definition
@@ -38,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'hello_worldproj',
-    '.herokuapp.com']
+]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
