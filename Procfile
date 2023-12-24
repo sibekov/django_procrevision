@@ -1,1 +1,1 @@
-web: gunicorn my_revproject.wsgi
+web : gunicorn my_revproject.wsg
